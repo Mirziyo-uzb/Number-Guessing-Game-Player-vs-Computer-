@@ -1,59 +1,83 @@
-# Number Guessing Game (Player vs Computer)
+🕹️ How the Game Works
 
-This is a simple interactive Python game where both the player and the computer try to guess a number within a given range.
+The game consists of two rounds:
 
-The project was created as part of my journey into programming and computer science, focusing on logical thinking and problem-solving rather than just syntax.
+1️⃣ Player Guesses the Number
 
----
+The computer randomly chooses a number between 1 and a given limit.
 
-## 🎮 How the Game Works
+The player tries to guess the number.
 
-The game has two parts:
+After each guess, the program gives a hint:
 
-1. **Player guesses the number**
-   - The computer randomly selects a number.
-   - The player tries to guess it.
-   - The program gives hints: greater or smaller.
+The number is greater
 
-2. **Computer guesses the number**
-   - The player thinks of a number.
-   - The computer guesses it using a narrowing range strategy.
-   - The player provides feedback: greater, less, or correct.
+The number is smaller
 
-After both rounds, the program compares attempts and declares a winner.
+The number of attempts is counted.
 
----
+2️⃣ Computer Guesses the Number
 
-## 🧠 Concepts Used
+The player thinks of a number within the same range.
 
-- Python functions
-- Loops (`while`)
-- Conditional statements (`if / elif / else`)
-- Random number generation
-- Basic algorithmic thinking
-- User input and interaction
+The computer tries to guess it.
 
----
+The player gives feedback:
 
-## 🚀 What I Learned
+G → the correct number is greater
 
-- How to break a program into logical functions
-- How to control program flow using conditions and loops
-- How simple algorithms can reduce the number of attempts
-- The importance of clear user interaction in console programs
+L → the correct number is smaller
 
----
+R → the guess is correct
 
-## 🔧 Possible Improvements (Future Versions)
+The computer narrows the range after each attempt.
 
-- Add input validation to prevent crashes
-- Replace random computer guessing with binary search
-- Add difficulty levels
-- Improve user interface and messages
+🏆 Winner
 
----
+After both rounds, the program compares the number of attempts and announces the winner.
 
-## ▶️ How to Run
+🧠 Concepts Used
 
-1. Make sure Python is installed
-2. Run the script:
+Python functions
+
+Loops (while)
+
+Conditional statements (if / elif / else)
+
+Random number generation
+
+User input and output
+
+Basic algorithmic thinking
+
+📚 What I Learned From This Project
+
+How to break a program into smaller logical functions
+
+How loops and conditions control program flow
+
+How simple algorithms can reduce guessing attempts
+
+How to design interactive console programs
+
+The importance of writing readable and structured code
+
+🔧 Future Improvements
+
+Add input validation to prevent incorrect input
+
+Use a binary search strategy for smarter computer guessing
+
+Add difficulty levels (easy, medium, hard)
+
+Improve user interface and messages
+
+Convert the game into a graphical version
+
+▶️ How to Run the Project
+
+Make sure Python is installed on your system
+
+Clone this repository
+
+Run the program:
